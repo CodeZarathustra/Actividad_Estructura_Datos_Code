@@ -169,12 +169,12 @@ public class ProgramaListas {
             min=vectorList.get(i);
             
         }
-        System.out.print("IMPRIMIENDO MAXIMO->"+ max+ "  IMPRIMIENDO MÍNIMO: "+min );  
+        System.out.print("IMPRIMIENDO MAXIMO->"+ max+ "  IMPRIMIENDO MiNIMO: "+min );  
 }
         //24. Eliminar el primer elemento
         //25. Eliminar el último elemento
         //26. Eliminar un elemento en la Posición X
-        System.out.print("IMPRIMIENDO PRIMER,ULTIMO ELEMENTO, ELEMENTO POSICICIÓN X");
+        System.out.print("IMPRIMIENDO PRIMER,ULTIMO ELEMENTO, ELEMENTO POSICICIoN X");
         int xPosi= 6;
         vectorList.removeElement(vectorList.indexOf(vectorList.lastElement()));
         vectorList.remove(vectorList.lastElement());
@@ -198,8 +198,6 @@ public class ProgramaListas {
         //28. Eliminar varios elementos de la lista, es decir, eliminar una sublista o
             //rango de elementos.
           //  29. Borrar todos los elementos de la lista.
-
-
           System.out.print("REMOVIENDO UN ELEMENTOS DE LA LIST: ");
           for (int i = 0; i < vectorList.size(); i++) {
               if (i%2==0) {
@@ -289,4 +287,4 @@ public class ProgramaListas {
 
             
 
-}
+}}
