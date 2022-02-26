@@ -54,7 +54,7 @@ class NodoaSimpleCircular{
     NodoaSimpleCircular nodoInicio;
     NodoaSimpleCircular nodoUltimo;
 
-    listaEnlazadaSimpleCircular( NodoaSimpleCircular nI, NodoaSimpleCircular nU) {
+    NodoaSimpleCircular( NodoaSimpleCircular nI, NodoaSimpleCircular nU) {
 
         this.nodoInicio=nI;
         this.nodoUltimo=nU;
